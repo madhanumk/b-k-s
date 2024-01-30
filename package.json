@@ -1,0 +1,28 @@
+{
+  "name": "BKS Textiles",
+  "version": "3.1.0",
+  "private": "true",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "EnvyTheme.com",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "axios": "^1.4.0",
+    "fslightbox-react": "^1.7.6",
+    "next": "^13.4.6",
+    "nodemailer": "^6.9.3",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "react": "^18.2.0",
+    "react-accessible-accordion": "^5.0.0",
+    "react-dom": "^18.2.0",
+    "react-tabs": "^6.0.1",
+    "sass": "^1.44.0",
+    "sweetalert2": "^11.7.12",
+    "sweetalert2-react-content": "^5.0.7",
+    "swiper": "^9.4.1"
+  }
+}
