@@ -4851,10 +4851,17 @@ padding: 50px 0px 50px 0px;
 /* New */
 
 .bg-yellow{background-color: #fff4e7; padding: 4% 8%;}
+.bg-wwh{background-color: #fff; padding: 2% 8%;}
+.bg-wwh img{padding:2px; border:2px solid #fff4e7; margin:1%;}
 /* .bg-yellow > div p{font-size:20px;} */
 .bg-white {background-color: #ffffff; padding: 0 8%;}
 /* .bg-yellow >  div p{font-size:20px;} */
 .bg-white-alter {background-color: #ffffff; padding:0 8% 5% 8%;}
+.bg-white-pb {background-color: #ffffff; padding:5% 8% 0 8%;}
+.bg-white-alter p{color:#57647c; font-size:16px;}
+.bg-white p{color:#57647c; font-size:16px;}
+.bg-white-pb p{color:#57647c; font-size:16px;}
+.viewgallery-btn{ padding: 4% 8%;}
 
 .container-fluid p {font-size:16px;}
 .container-fluid img{height: auto;}

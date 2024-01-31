@@ -19,7 +19,7 @@ const GalleryComponent = ({ data, title }) => {
 
   return (
     <>
-      <div className="container-fluid p-4">
+      <div className="container-fluid p4">
         <h2> {htmlTitle} </h2>
         {data?.map((url, index) => (
           <img
@@ -49,15 +49,15 @@ const GalleryComponent = ({ data, title }) => {
         <div className="dot-shape1">
           <img src="/images/shape/4.png" alt="image" />
         </div>
-
-        <FsLightbox
-          toggler={lightboxVisible}
-          sources={data}
-          type="image"
-          slide={lightboxIndex + 1}
-          onClose={closeLightbox}
-        />
       </div>
+
+      <FsLightbox
+        toggler={lightboxVisible}
+        sources={data}
+        type="image"
+        slide={lightboxIndex + 1}
+        onClose={closeLightbox}
+      />
     </>
   );
 };
