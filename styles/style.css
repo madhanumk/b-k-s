@@ -989,6 +989,7 @@ Search Popup CSS
   .others-options .cart-btn:hover {
     color: #76c049;
   }
+  
 }
 /*================================================
 Main Banner Area CSS
@@ -4757,6 +4758,7 @@ padding: 50px 0px 50px 0px;
     .awards-content{
      text-align: center;
      padding-bottom: 30px;
+     padding-left: 0px !important;
     }
     .csr-content{
       padding-bottom: 30px;
